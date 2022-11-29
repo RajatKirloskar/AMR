@@ -3,6 +3,7 @@
 
 # AMR
 The Autonomous Mobile Robot (AMR) is developed mainly for warehouse point to point applications. For example, the AMR can carry material from one station to another as necessary. The AMR has the ability to carry 120 Kgs of payload and navigate autonomously in a pre-mapped environment. LiDAR sensors are used for robot localization and navigation.
+![image](https://user-images.githubusercontent.com/108690286/204658405-5a5cef9f-686c-4e95-8b1c-c09d92896e27.png)
 
 ### DEVELOPING THE DRIVE WHEEL SYSTEM
 All the parts required to build the drive wheel system system are available in a hoverboard
@@ -26,8 +27,6 @@ To make it compatible for flashing, we need to convert the Hoverboard Firmware H
 ### SIMULATION
 To simulate the movement of the robot in the real world, it is crucial to model the surroundings with accurate dimensions. For this project, I used Fusion 360 to model our "world". Once the world has been modelled, we need to convert the .f3d file to a URDF file. To do this, you have to first add the URDF exporter as an add-on in Fusion 360
 ![image](https://user-images.githubusercontent.com/108690286/204652280-f4e9a5c6-5e6f-4bb8-8b49-7e085abf46a6.png)
-
-![image](https://user-images.githubusercontent.com/108690286/204651839-59339798-8ca5-419f-9133-c4c99113fc3a.png)
 
 ### AUTONOMOUS NAVIGATION
 The ROS navigation stack is a collection of software packages that you can use to help your robot move from a starting location to the end location safely.
