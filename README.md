@@ -44,7 +44,7 @@ For the actual robot, Cartographer was implemented. Cartographer takes data from
 
 ### MAPPING
 To create a map of the surrounding, the "cartographer_occupancy_grid_node" subscribes to the data received from the LiDAR sensors and publishes a map with the derivable area, hence creating a map with an outline.
-![image](https://user-images.githubusercontent.com/108690286/204652031-f5e13054-8435-459b-8be3-5718c501350a.png)
+![image](https://user-images.githubusercontent.com/108690286/204657822-2565c006-e9b3-47fe-b662-eca3351c054e.png)
 
 ### Navigation
 Once the map has been generated, the map needs to be saved. The launch file should be able to locate this map. The launch file then takes the map data and opens it in RVIZ to visualize the data. Here, you can give the robot an end goal on the map. The AMR tries to reach the end goal by planning its path using "dwa_planner". The AMR finally reaches its goal by using the navigation stack algorithms to move from the starting position to the end position.
