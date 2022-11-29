@@ -36,7 +36,7 @@ It is a necessary package for the autonomous navigation of the mobile robot. It 
 
 ###### AMCL PACKAGE
 AMCL is a two dimensional probabilistic localization system. It uses a particle filter to track a robot's pose against a known map. 
-![image](https://user-images.githubusercontent.com/108690286/204653679-79cffe3e-81fd-4414-ad97-0a2dfb6b1e42.png)
+![image](https://user-images.githubusercontent.com/108690286/204654913-006ca814-cdf0-4676-b532-900f9971da20.png)
 
 However, in this project, the AMCL package was used only for simulation. 
 For the actual robot, Cartographer was implemented. Cartographer takes data from LiDAR laser scans to estimate the positions of the robot. 
