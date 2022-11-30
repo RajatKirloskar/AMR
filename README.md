@@ -1,7 +1,7 @@
 **I have also uploaded a pdf which includes a more detailed explaination of the entire project.** Hope that helps!
 [Design and Development of Autonomous Mobile Robot for Modular Applications (4).pdf](https://github.com/RajatKirloskar/AMR/files/10117670/Design.and.Development.of.Autonomous.Mobile.Robot.for.Modular.Applications.4.pdf)
 
-# AMR
+# Autonomous Mobile Robot (AMR)
 The Autonomous Mobile Robot (AMR) is developed mainly for warehouse point to point applications. For example, the AMR can carry material from one station to another as necessary. The AMR has the ability to carry 120 Kgs of payload and navigate autonomously in a pre-mapped environment. LiDAR sensors are used for robot localization and navigation.
 ![image](https://user-images.githubusercontent.com/108690286/204658405-5a5cef9f-686c-4e95-8b1c-c09d92896e27.png)
 
